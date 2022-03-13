@@ -41,7 +41,7 @@ const devTools = [
     productName: 'next-starter',
     description: (
       <>
-        description: 'Next.jsのテンプレートリポジトリ。
+        description: Next.jsのテンプレートリポジトリ。
         <br />
         Next.js / TypeScript / Storybook / Jest
       </>
