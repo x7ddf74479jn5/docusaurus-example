@@ -8,8 +8,9 @@
 const config = {
   title: "Pandashark's Portfolio",
   tagline: 'Pandasharkのポートフォリオ',
-  url: 'https://pandashark.netlify.app',
+  url: 'https://pandashark-portfolio.netlify.app',
   baseUrl: '/',
+  trailingSlash: false,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/pandashark_logo.svg',
@@ -32,8 +33,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl:
-            'https://x7ddf74479jn5.github.io/docusaurus-example/tree/main/docs',
+          editUrl: 'https://x7ddf74479jn5.github.io/docusaurus-portfolio/tree/main/docs',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -41,7 +41,6 @@ const config = {
         sitemap: {
           changefreq: 'weekly',
           priority: 0.5,
-          trailingSlash: false,
         },
         // gtag: {
         //   trackingID: '',
