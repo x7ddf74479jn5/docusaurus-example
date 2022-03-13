@@ -1,20 +1,29 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+// const lightCodeTheme = require('prism-react-renderer/themes/github');
+// const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://x7ddf74479jn5.github.io/',
-  baseUrl: '/docusaurus-example/',
+  title: "Pandashark's Portfolio",
+  tagline: 'Pandasharkのポートフォリオ',
+  url: 'https://pandashark.netlify.app',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/pandashark_logo.svg',
   organizationName: 'x7ddf74479jn5', // Usually your GitHub org/user name.
   projectName: 'x7ddf74479jn5.github.io', // Usually your repo name.
+  customFields: {
+    url: {
+      homepage: 'https://three-homepage.vercel.app/',
+      wantedly: 'https://www.wantedly.com/id/tomohiro_ueno_l',
+      github: 'https://github.com/pandashark',
+      twitter: 'https://twitter.com/pandashark6',
+      instagram: 'https://www.instagram.com/pandashark_',
+    },
+  },
 
   presets: [
     [
@@ -23,17 +32,20 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl: 'https://x7ddf74479jn5.github.io/docusaurus-example/tree/main/docs',
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl: 'https://x7ddf74479jn5.github.io/docusaurus-example/tree/main/blog',
+          editUrl:
+            'https://x7ddf74479jn5.github.io/docusaurus-example/tree/main/docs',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        sitemap: {
+          changefreq: 'weekly',
+          priority: 0.5,
+          trailingSlash: false,
+        },
+        // gtag: {
+        //   trackingID: '',
+        // },
       }),
     ],
   ],
@@ -42,21 +54,21 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: "Pandashark's Portfolio",
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Pandasharkのロゴ',
+          src: '/img/pandashark_logo.svg',
         },
         items: [
+          { to: '/skillandcareer', label: 'Skill & Career', position: 'left' },
+          { to: '/myproducts', label: 'MyProducts', position: 'left' },
           {
-            type: 'doc',
-            docId: 'intro',
+            href: 'https://three-homepage.vercel.app/',
+            label: 'Homepage',
             position: 'left',
-            label: 'Tutorial',
           },
-          { to: '/blog', label: 'Blog', position: 'left' },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/x7ddf74479jn5/portfolio',
             label: 'GitHub',
             position: 'right',
           },
@@ -66,51 +78,57 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Site',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Material Source',
+                to: 'source',
+              },
+              {
+                label: 'Privacy Policy',
+                to: 'policy',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Social',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Homepage',
+                href: 'https://three-homepage.vercel.app/',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Wantedly',
+                href: 'https://www.wantedly.com/id/tomohiro_ueno_l',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/h-yoshikawa44',
+              },
+              {
+                label: 'Twitter',
+                href: 'https://twitter.com/pandashark6',
+              },
+              {
+                label: 'Instagram',
+                href: 'https://www.instagram.com/pandashark_',
+              },
+              {
+                html: `
+                  <a href="https://www.netlify.com" target="_blank" rel="noreferrer noopener" aria-label="Deploys by Netlify">
+                    <img src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg" alt="Deploys by Netlify" />
+                  </a>
+                `,
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Pandashark Built with Docusaurus.`,
       },
-      prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
-      },
+      // prism: {
+      //   theme: lightCodeTheme,
+      //   darkTheme: darkCodeTheme,
+      // },
     }),
 };
 

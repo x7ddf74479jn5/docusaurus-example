@@ -1,41 +1,37 @@
-# Website
+# Pandashark's Portfolio
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+Pandashark のポートフォリオサイト  
 
-### Installation
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8af81460-1140-4eb4-823d-56a99af5353a/deploy-status)](https://app.netlify.com/sites/pandashark-portfolio/deploys)
 
-```
-$ yarn
-```
+[Pandashark's Portfolio](https://pandashark.netlify.app/)
 
-### Local Development
+## 構成
 
-```
-$ yarn start
-```
+- Node.js：16.13.0
+- React：17.0.1
+- Docusaurus：2.0.0-beta.15
+- @docusaurus/preset-classic：2.0.0-beta.15
+  - Infima：0.2.0-alpha.36
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+Docusaurus 2 系は開発中のバージョンであるため、バージョンアップ対応などは、より注意して行うこと。
 
-### Build
+## 環境立ち上げ
 
-```
-$ yarn build
-```
+ライブラリインストール
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
+```shell
+yarn install
 ```
 
-Not using SSH:
+サーバ起動
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
+```shell
+yarn start
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+ブラウザでアクセス
+
+```shell
+localhost:3000
+```
