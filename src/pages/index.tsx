@@ -37,10 +37,7 @@ const Home = () => {
             >
               スキル &amp; 経歴
             </Link>
-            <Link
-              className="button button--outline button--info button--lg margin--xs"
-              to={useBaseUrl('/myproducts')}
-            >
+            <Link className="button button--outline button--info button--lg margin--xs" to={useBaseUrl('/myproducts')}>
               個人開発
             </Link>
           </div>
@@ -66,59 +63,38 @@ const Home = () => {
                   <div className="card__header">
                     <div className="avatar">
                       <img
-                        className={clsx(
-                          'avatar__photo avatar__photo--xl',
-                          styles.backgroundColorWhite
-                        )}
+                        className={clsx('avatar__photo avatar__photo--xl', styles.backgroundColorWhite)}
                         src={useBaseUrl('img/pandashark_logo.svg')}
                       />
                       <div className="avatar__intro">
                         <h3 className="avatar__name">Pandashark</h3>
-                        <small className="avatar__subtitle">
-                          ( x7ddf74479jn5 )
-                        </small>
+                        <small className="avatar__subtitle">( x7ddf74479jn5 )</small>
                       </div>
                     </div>
                   </div>
                   <div className="card__body">
                     <p>
-                      Frontend engineer | Cook。
+                      Frontend engineer。
                       <br />
-                      喫茶店の調理職に従事する傍らフリーランスのフロントエンドエンジニアとして働いています。
+                      フリーランスのフロントエンドエンジニアとして働いています。
                     </p>
                     <p>
                       実務経験として、フロントエンドのフリーランス案件の経験はありますが、
                       <br />
                       いまいちスキルの中途半端感があるのでフロントエンド領域のスキルを伸ばそうと日々勉強しています。
                       <br />
-                      最近、メインで使用しているものは TypeScript React、時に
-                      Next.js です。
+                      最近、メインで使用しているものは TypeScript React、時に Next.js です。
                       <br />
-                      また、基礎の地盤固めとして Zenn や Qiita
-                      のウェブ開発系の記事を読み漁っています。
+                      また、基礎の地盤固めとして Zenn や Qiita のウェブ開発系の記事を読み漁っています。
                     </p>
                   </div>
                   <div className="card__footer">
-                    <p>
-                      個人ホームページや各種技術活動に関するアカウントはこちら。
-                    </p>
+                    <p>個人ホームページや各種技術活動に関するアカウントはこちら。</p>
                     <ul>
-                      <PersonalLinkItem
-                        url={siteConfig.customFields.url['homepage']}
-                        text="ホームページ"
-                      />
-                      <PersonalLinkItem
-                        url={siteConfig.customFields.url['wantedly']}
-                        text="Wantedly"
-                      />
-                      <PersonalLinkItem
-                        url={siteConfig.customFields.url['github']}
-                        text="GitHub"
-                      />
-                      <PersonalLinkItem
-                        url={siteConfig.customFields.url['twitter']}
-                        text="Twitter"
-                      />
+                      <PersonalLinkItem url={siteConfig.customFields.url['homepage']} text="ホームページ" />
+                      <PersonalLinkItem url={siteConfig.customFields.url['wantedly']} text="Wantedly" />
+                      <PersonalLinkItem url={siteConfig.customFields.url['github']} text="GitHub" />
+                      <PersonalLinkItem url={siteConfig.customFields.url['twitter']} text="Twitter" />
                     </ul>
                   </div>
                 </div>
