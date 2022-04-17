@@ -3,18 +3,8 @@ import Layout from '@theme/Layout';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './index.module.css';
-import {
-  editors,
-  environments,
-  langAndframewarks,
-  database,
-  qualification,
-} from '../../data/skills';
-import {
-  careersAtFreelance,
-  personalDevelopment,
-  careersAtCook,
-} from '../../data/careers';
+import { editors, environments, langAndframewarks, database, qualification } from '../../data/skills';
+import { careersAtFreelance, personalDevelopment, careersAtCook } from '../../data/careers';
 
 type Skill = {
   imgUrl: string;
@@ -27,11 +17,7 @@ const Skill = ({ imgUrl, title, description }: Skill) => {
     <div className="col col--3 text--center">
       {imgUrl && (
         <p className={styles.skillImageBlock}>
-          <img
-            className={styles.skillImage}
-            src={useBaseUrl(imgUrl)}
-            alt={title}
-          />
+          <img className={styles.skillImage} src={useBaseUrl(imgUrl)} alt={title} />
         </p>
       )}
       <h4>{title}</h4>
@@ -48,19 +34,10 @@ type Career = {
   environment: string;
   cloudService: string;
   other: string;
-  description: string;
+  description: React.ReactNode;
 };
 
-const Career = ({
-  period,
-  title,
-  langAndFw,
-  db,
-  environment,
-  cloudService,
-  other,
-  description,
-}: Career) => {
+const Career = ({ period, title, langAndFw, db, environment, cloudService, other, description }: Career) => {
   return (
     <div className="card-demo margin-vert--sm">
       <div className="card shadow--lw-custom">
@@ -101,10 +78,7 @@ function SkillAndCareer() {
   const context = useDocusaurusContext();
   const { siteConfig = {} } = context;
   return (
-    <Layout
-      title="Skill &amp; Career"
-      description="Pandasharkのスキル &amp; 経歴"
-    >
+    <Layout title="Skill &amp; Career" description="Pandasharkのスキル &amp; 経歴">
       <header className="hero hero--primary hero-banner">
         <div className="container">
           <h1 className="hero__title">Skill &amp; Career</h1>
@@ -139,9 +113,7 @@ function SkillAndCareer() {
             )}
           </section>
           <section>
-            <h3 className="text--center decoration-line">
-              言語・フレームワーク
-            </h3>
+            <h3 className="text--center decoration-line">言語・フレームワーク</h3>
             {langAndframewarks && langAndframewarks.length && (
               <div className="padding-vert--lg">
                 <div className="row">
@@ -191,9 +163,7 @@ function SkillAndCareer() {
             ※ここで書いている技術スタックは、実際に使われているもののうち、自分が関わった部分のみ記載しています。
           </small>
           <section>
-            <h3 className="text--center decoration-line">
-              フリーランスウェブエンジニア 【2019/01 ~ 】
-            </h3>
+            <h3 className="text--center decoration-line">フリーランスウェブエンジニア 【2019/01 ~ 】</h3>
             {careersAtFreelance && careersAtFreelance.length && (
               <div className="padding-vert--md">
                 {careersAtFreelance.map((props, idx) => (
@@ -203,9 +173,7 @@ function SkillAndCareer() {
             )}
           </section>
           <section>
-            <h3 className="text--center decoration-line">
-              調理職 【2012/10 ~ 】
-            </h3>
+            <h3 className="text--center decoration-line">調理職 【2012/10 ~ 】</h3>
             {careersAtCook && careersAtCook.length && (
               <div className="padding-vert--md">
                 {careersAtCook.map((props, idx) => (
