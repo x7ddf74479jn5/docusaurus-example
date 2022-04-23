@@ -2,6 +2,13 @@ import React from 'react';
 
 const siteMyProducts = [
   {
+    productName: 'Simple Kanban Planner',
+    description: (<span style={{ wordBreak: 'keep-all', overflowWrap: 'break-word' }}>Trelloライクな<wbr />カンバン型タスク管理アプリ。</span>),
+    imageUrl: 'img/my-products/simple-Kanban-planner.webp',
+    url: 'https://simple-kanban-planner.web.app/',
+    githubUrl: 'https://github.com/x7ddf74479jn5/simple-kanban-planner/',
+  },
+  {
     productName: 'Homepage',
     description: (<span style={{ wordBreak: 'keep-all', overflowWrap: 'break-word' }}>情報発信場所を<wbr />エンジニアリング以外の<wbr />用途で<wbr />切り分けたかった<wbr />ため<wbr />制作。</span>),
     imageUrl: 'img/my-products/three-homepage.webp',
@@ -22,7 +29,7 @@ const siteMyProducts = [
   },
   {
     productName: 'My Favorite Gear',
-    description:(<span style={{ wordBreak: 'keep-all', overflowWrap: 'break-word' }}>自分の<wbr />お気に<wbr />入りの<wbr />アイテムを<wbr />8つ<wbr />選んで<wbr /> Twitter に<wbr />投稿できる。<wbr />Twitter アカウントが<wbr />必要。<wbr />※ いろいろ<wbr />古くなってしまっている<wbr />ため<wbr />改修予定。</span>),
+    description:(<span style={{ wordBreak: 'keep-all', overflowWrap: 'break-word' }}>自分の<wbr />お気に<wbr />入りの<wbr />アイテムを<wbr />8つ<wbr />選んで<wbr />Twitterに<wbr />投稿できる。<wbr />Twitterアカウントが<wbr />必要。<wbr />React V18, webpack-&gt;Viteの<wbr />構成で<wbr />改修済み。</span>),
     imageUrl: 'img/my-products/my-favorite-gear_screenshot.webp',
     url: 'https://my-favorite-gear.firebaseapp.com/',
     githubUrl: 'https://github.com/x7ddf74479jn5/my-favorite-gear/',
