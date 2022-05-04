@@ -2,6 +2,13 @@ import React from 'react';
 
 const siteMyProducts = [
   {
+    productName: 'Cryptocurrency Tracker',
+    description: (<span style={{ wordBreak: 'keep-all', overflowWrap: 'break-word' }}>暗号資産ダッシュボード。<wbr />リアルタイムの<wbr />価格、<wbr />過去の<wbr />スパークラインチャートを<wbr />表示できます。</span>),
+    imageUrl: 'img/my-products/cryptocurrency-tracker.webp',
+    url: 'https://cryptocurrency-tracker-ab5d9.web.app/',
+    githubUrl: 'https://github.com/x7ddf74479jn5/cryptocurrency-tracker',
+  },
+  {
     productName: 'Simple Kanban Planner',
     description: (<span style={{ wordBreak: 'keep-all', overflowWrap: 'break-word' }}>Trelloライクな<wbr />カンバン型タスク管理アプリ。</span>),
     imageUrl: 'img/my-products/simple-Kanban-planner.webp',
