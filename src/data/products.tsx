@@ -20,6 +20,9 @@ const siteMyProducts = [
     url: 'https://food-blog-chi.vercel.app/',
     githubUrl: 'https://github.com/x7ddf74479jn5/food-blog/',
   },
+];
+
+const oneShotProducts = [
   {
     productName: 'My Favorite Gear',
     description:(<span style={{ wordBreak: 'keep-all', overflowWrap: 'break-word' }}>自分の<wbr />お気に<wbr />入りの<wbr />アイテムを<wbr />8つ<wbr />選んで<wbr />Twitterに<wbr />投稿できる。<wbr />Twitterアカウントが<wbr />必要。<wbr />React V18, webpack-&gt;Viteの<wbr />構成で<wbr />改修済み。</span>),
@@ -27,16 +30,6 @@ const siteMyProducts = [
     url: 'https://my-favorite-gear.firebaseapp.com/',
     githubUrl: 'https://github.com/x7ddf74479jn5/my-favorite-gear/',
   },
-  {
-    productName: 'Old Portfolio Site',
-    description: '旧ポートフォリオサイト。',
-    imageUrl: 'img/my-products/portfolio-eyecatch.webp',
-    url: 'https://next-portfolio-livid.vercel.app/',
-    githubUrl: 'https://github.com/x7ddf74479jn5/next-portfolio/',
-  },
-];
-
-const OneShotProducts = [
   {
     productName: 'Cryptocurrency Tracker',
     description: (<span style={{ wordBreak: 'keep-all', overflowWrap: 'break-word' }}>暗号資産ダッシュボード。<wbr />リアルタイムの<wbr />価格、<wbr />過去の<wbr />スパークラインチャートを<wbr />表示できます。</span>),
@@ -50,6 +43,16 @@ const OneShotProducts = [
     imageUrl: 'img/my-products/simple-Kanban-planner.webp',
     url: 'https://simple-kanban-planner.web.app/',
     githubUrl: 'https://github.com/x7ddf74479jn5/simple-kanban-planner/',
+  },
+]
+
+const otherProducts = [
+  {
+    productName: 'Old Portfolio Site',
+    description: '旧ポートフォリオサイト。',
+    imageUrl: 'img/my-products/portfolio-eyecatch.webp',
+    url: 'https://next-portfolio-livid.vercel.app/',
+    githubUrl: 'https://github.com/x7ddf74479jn5/next-portfolio/',
   },
 ]
 
@@ -93,6 +96,8 @@ const devTools = [
   },
 ];
 
-const webSite = { siteMyProducts };
 
-export { webSite,OneShotProducts, devTools };
+
+const webSite = { siteMyProducts,oneShotProducts,otherProducts };
+
+export { webSite, devTools };
