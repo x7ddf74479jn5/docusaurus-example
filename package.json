@@ -17,7 +17,7 @@
     "check:prettier": "yarn run -s prettier --check .",
     "fix": "yarn fix:eslint && yarn fix:prettier",
     "fix:eslint": "yarn lint:eslint --fix",
-    "fix:prettier": "yarn lint:prettier --write",
+    "fix:prettier": "yarn check:prettier --write",
     "prepare": "simple-git-hooks || echo 'Can not set git hooks'"
   },
   "dependencies": {
