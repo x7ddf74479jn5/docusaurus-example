@@ -3,3 +3,4 @@ node_modules/**
 build/**
 **/*.md
 src/data
+pnpm-lock.yaml
