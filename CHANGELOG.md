@@ -2,6 +2,10 @@
 
 Pandashark's Portfolioの大まかな機能変化記録
 
+## 2022-08-06
+
+- スキル更新
+
 ## 2022-07-14
 
 - google-form-notificationを追加
