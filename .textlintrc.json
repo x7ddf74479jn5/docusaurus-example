@@ -1,15 +1,14 @@
 {
   "filters": {},
   "rules": {
-    "preset-ja-technical-writing": true,
     "preset-ja-technical-writing": {
       "no-exclamation-question-mark": false,
       "max-kanji-continuous-len": {
-        max: 10
+        "max": 10
       },
       "sentence-length": {
-        max: 120
-    },
+        "max": 120
+      }
     }
   }
 }
