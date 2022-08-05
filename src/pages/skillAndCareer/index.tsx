@@ -3,7 +3,7 @@ import Layout from '@theme/Layout';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './index.module.css';
-import { editors, environments, langAndframewarks, database, qualification } from '../../data/skills';
+import { editors, environments, langAndFrameworks, cloudAndDatabase, qualification } from '../../data/skills';
 import { careersAtFreelance, personalDevelopment, careersAtCook } from '../../data/careers';
 
 type Skill = {
@@ -114,10 +114,10 @@ function SkillAndCareer() {
           </section>
           <section>
             <h3 className="text--center decoration-line">言語・フレームワーク</h3>
-            {langAndframewarks && langAndframewarks.length && (
+            {langAndFrameworks && langAndFrameworks.length && (
               <div className="padding-vert--lg">
                 <div className="row">
-                  {langAndframewarks.map((props, idx) => (
+                  {langAndFrameworks.map((props, idx) => (
                     <Skill key={idx} {...props} />
                   ))}
                 </div>
@@ -126,10 +126,10 @@ function SkillAndCareer() {
           </section>
           <section>
             <h3 className="text--center decoration-line">データベース</h3>
-            {database && database.length && (
+            {cloudAndDatabase && cloudAndDatabase.length && (
               <div className="padding-vert--lg">
                 <div className="row">
-                  {database.map((props, idx) => (
+                  {cloudAndDatabase.map((props, idx) => (
                     <Skill key={idx} {...props} />
                   ))}
                 </div>
