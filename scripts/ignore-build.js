@@ -1,1 +1,1 @@
-process.exitCode = process.env.BRANCH.includes('develop', 'main') ? 1 : 0;
+process.exitCode = process.env.BRANCH.includes('develop', 'main') ? 0 : 1;
