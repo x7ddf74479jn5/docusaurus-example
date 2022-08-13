@@ -20,13 +20,33 @@ const siteMyProducts = [
     url: 'https://food-blog-chi.vercel.app/',
     githubUrl: 'https://github.com/x7ddf74479jn5/food-blog/',
   },
+];
+
+const oneShotProducts = [
   {
     productName: 'My Favorite Gear',
-    description:(<span style={{ wordBreak: 'keep-all', overflowWrap: 'break-word' }}>自分の<wbr />お気に<wbr />入りの<wbr />アイテムを<wbr />8つ<wbr />選んで<wbr /> Twitter に<wbr />投稿できる。<wbr />Twitter アカウントが<wbr />必要。<wbr />※ いろいろ<wbr />古くなってしまっている<wbr />ため<wbr />改修予定。</span>),
+    description:(<span style={{ wordBreak: 'keep-all', overflowWrap: 'break-word' }}>自分の<wbr />お気に<wbr />入りの<wbr />アイテムを<wbr />8つ<wbr />選んで<wbr />Twitterに<wbr />投稿できる。<wbr />Twitterアカウントが<wbr />必要。<wbr />React V18, webpack-&gt;Viteの<wbr />構成で<wbr />改修済み。</span>),
     imageUrl: 'img/my-products/my-favorite-gear_screenshot.webp',
     url: 'https://my-favorite-gear.firebaseapp.com/',
     githubUrl: 'https://github.com/x7ddf74479jn5/my-favorite-gear/',
   },
+  {
+    productName: 'Cryptocurrency Tracker',
+    description: (<span style={{ wordBreak: 'keep-all', overflowWrap: 'break-word' }}>暗号資産ダッシュボード。<wbr />リアルタイムの<wbr />価格、<wbr />過去の<wbr />スパークラインチャートを<wbr />表示できます。</span>),
+    imageUrl: 'img/my-products/cryptocurrency-tracker.webp',
+    url: 'https://cryptocurrency-tracker-ab5d9.web.app/',
+    githubUrl: 'https://github.com/x7ddf74479jn5/cryptocurrency-tracker',
+  },
+  {
+    productName: 'Simple Kanban Planner',
+    description: (<span style={{ wordBreak: 'keep-all', overflowWrap: 'break-word' }}>Trelloライクな<wbr />カンバン型タスク管理アプリ。</span>),
+    imageUrl: 'img/my-products/simple-Kanban-planner.webp',
+    url: 'https://simple-kanban-planner.web.app/',
+    githubUrl: 'https://github.com/x7ddf74479jn5/simple-kanban-planner/',
+  },
+]
+
+const otherProducts = [
   {
     productName: 'Old Portfolio Site',
     description: '旧ポートフォリオサイト。',
@@ -34,14 +54,14 @@ const siteMyProducts = [
     url: 'https://next-portfolio-livid.vercel.app/',
     githubUrl: 'https://github.com/x7ddf74479jn5/next-portfolio/',
   },
-];
+]
 
 const devTools = [
   {
     productName: 'next-starter',
     description: (
       <>
-        description: Next.jsのテンプレートリポジトリ。
+        Next.jsのテンプレートリポジトリ。
         <br />
         Next.js / TypeScript / Storybook / Jest
       </>
@@ -62,8 +82,22 @@ const devTools = [
     url: '',
     githubUrl: 'https://github.com/x7ddf74479jn5/asset-tools',
   },
+  {
+    productName: 'google-form-notification',
+    description:(
+      <>
+        Google Formの回答をSlackとメールに通知できます。
+        <br/>
+        clasp / TypeScript / esbuild
+      </>),
+    imageUrl: 'img/my-products/no_image.webp',
+    url: '',
+    githubUrl: 'https://github.com/x7ddf74479jn5/google-form-notification',
+  },
 ];
 
-const webSite = { siteMyProducts };
+
+
+const webSite = { siteMyProducts,oneShotProducts,otherProducts };
 
 export { webSite, devTools };

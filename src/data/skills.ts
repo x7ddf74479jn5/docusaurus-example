@@ -41,11 +41,17 @@ export const environments = [
     title: 'Jest',
     imgUrl: 'img/logo-icons/jest.svg',
     description:
-      '実務でも個人開発でも活躍している。基本的な機能はだいたい理解している。',
+      '基本的な機能はだいたい理解している。',
+  },
+  {
+    title: 'Playwright',
+    imgUrl: 'img/logo-icons/playwright.svg',
+    description:
+      '基本的な機能はだいたい理解している。',
   },
 ];
 
-const langAndframewarks = [
+const langAndFrameworks = [
   {
     title: 'HTML',
     imgUrl: 'img/logo-icons/html-5.svg',
@@ -55,25 +61,25 @@ const langAndframewarks = [
     title: 'CSS',
     imgUrl: 'img/logo-icons/css-3.svg',
     description:
-      'CSS（管理）があまり得意ではなく、最近はTailwind CSS や Chakra UIに頼っている。',
+      'Tailwind CSS や Chakra が好み。',
   },
   {
     title: 'JavaScript',
     imgUrl: 'img/logo-icons/javascript.svg',
     description:
-      '実務使用経験ありであるが、基本的にフロントのみ。あとは Google Apps Script の経験あり。',
+      '実務使用経験はあるが、基本的にフロントのみ。あとは Google Apps Script の経験あり。使用歴は3年。',
   },
   {
     title: 'TypeScript',
     imgUrl: 'img/logo-icons/typescript-icon.svg',
     description:
-      '自分の中でフロントエンド側のコードを書く際のデファクトにしたい言語。得意言語として伸ばしていきたい。',
+      '現代のJavaScriptを理解し、型安全なコードを記述できる。使用歴は1年。',
   },
   {
     title: 'React',
     imgUrl: 'img/logo-icons/react.svg',
     description:
-      '実務使用経験あり。自分のスキルのうち、フロントエンドでメインにしたい技術。React Native も少しできる。',
+      '現在メインとする開発スキル。案件ごとのコーディング規約やフロントエンドの作法を考慮しながら開発できる。使用歴は1年。',
   },
   {
     title: 'Docusaurus',
@@ -85,23 +91,25 @@ const langAndframewarks = [
     title: 'Next.js',
     imgUrl: 'img/logo-icons/nextjs-icon.svg',
     description:
-      '自分の得意技術として伸ばしていきたいフレームワーク。個人活動でも使うことが多い。',
+      'Next.jsの仕組みを正しく理解し、パフォーマンス等の要件を最適化した実装をすることができる。各種開発ツールの設定を含む環境構築が可能。',
   },
   {
     title: 'Node.js',
     imgUrl: 'img/logo-icons/nodejs.svg',
     description:
-      '個人プロジェクトで使用。薄いバックエンドや簡単なスクリプトが書ける程度。余裕があれば勉強していきたい。',
+      'フロントエンドの開発環境としては概ね理解している。バックエンドの実装経験は Next.js のサーバーサイドの処理や Cloud Functionsなど。',
   },
   {
-    title: 'PHP',
-    imgUrl: 'img/logo-icons/php.svg',
-    description: 'WordPress の開発でのみ使用。忘れかけている。',
+    title: 'React Native / Expo',
+    imgUrl: 'img/logo-icons/expo-icon.svg',
+    description:
+      'リリース・運用経験はなく、学習用に数個のアプリを作成した。',
   },
   {
-    title: 'WordPress',
-    imgUrl: 'img/logo-icons/wordpress-icon.svg',
-    description: 'Web 制作をやっていたときの名残。忘れかけている。',
+    title: 'Prisma',
+    imgUrl: 'img/logo-icons/prisma.svg',
+    description:
+      '学習用の趣味開発で使用したことがある。',
   },
   {
     title: 'TailWind CSS',
@@ -110,7 +118,7 @@ const langAndframewarks = [
   },
 ];
 
-const database = [
+const cloudAndDatabase = [
   {
     title: 'Firebase',
     imgUrl: 'img/logo-icons/firebase.svg',
@@ -122,6 +130,12 @@ const database = [
     description:
       '実務使用経験あり。データベース、バックエンドとインフラは余裕があれば伸ばしていきたい。',
   },
+  {
+    title: 'GCP',
+    imgUrl: 'img/logo-icons/google-cloud.svg',
+    description:
+      'Google Analytics Data API, Google Maps API, Google Sheets API 等の利用。学習用で Cloud Build, Cloud Run で Next.js アプリをデプロイした経験がある。',
+  },
 ];
 
 const qualification = [
@@ -131,4 +145,4 @@ const qualification = [
   },
 ];
 
-export { editors, langAndframewarks, database, qualification };
+export { editors, langAndFrameworks, cloudAndDatabase, qualification };

@@ -55,7 +55,7 @@ const Product = ({ productName, description, imageUrl, url, githubUrl }: Product
 
 const MyProducts = () => {
   return (
-    <Layout title="MyProducts" description="よしの個人開発">
+    <Layout title="MyProducts" description="Pandasharkの個人開発">
       <header className="hero hero--primary hero-banner">
         <div className="container">
           <h1 className="hero__title">My Products</h1>
@@ -70,6 +70,26 @@ const MyProducts = () => {
             {webSite.siteMyProducts && webSite.siteMyProducts.length && (
               <div className="row padding-vert--lg">
                 {webSite.siteMyProducts.map((props, idx) => (
+                  <Product key={idx} {...props} />
+                ))}
+              </div>
+            )}
+          </section>
+          <section>
+            <h3 className="text--center decoration-line">単発</h3>
+            {webSite.oneShotProducts && webSite.oneShotProducts.length && (
+              <div className="row padding-vert--lg">
+                {webSite.oneShotProducts.map((props, idx) => (
+                  <Product key={idx} {...props} />
+                ))}
+              </div>
+            )}
+          </section>
+          <section>
+            <h3 className="text--center decoration-line">その他</h3>
+            {webSite.otherProducts && webSite.otherProducts.length && (
+              <div className="row padding-vert--lg">
+                {webSite.otherProducts.map((props, idx) => (
                   <Product key={idx} {...props} />
                 ))}
               </div>
