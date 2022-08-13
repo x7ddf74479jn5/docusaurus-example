@@ -18,9 +18,10 @@ const config = {
   projectName: 'x7ddf74479jn5.github.io', // Usually your repo name.
   customFields: {
     url: {
-      homepage: 'https://three-homepage.vercel.app/',
+      homepage: 'https://three-homepage.vercel.app',
       wantedly: 'https://www.wantedly.com/id/tomohiro_ueno_l',
-      github: 'https://github.com/pandashark',
+      github: 'https://github.com/x7ddf74479jn5',
+      gist: 'https://gist.github.com/x7ddf74479jn5',
       twitter: 'https://twitter.com/pandashark6',
       instagram: 'https://www.instagram.com/pandashark_',
     },
@@ -62,12 +63,12 @@ const config = {
           { to: '/skillandcareer', label: 'Skill & Career', position: 'left' },
           { to: '/myproducts', label: 'MyProducts', position: 'left' },
           {
-            href: 'https://three-homepage.vercel.app/',
+            href: 'https://three-homepage.vercel.app',
             label: 'Homepage',
             position: 'left',
           },
           {
-            href: 'https://github.com/x7ddf74479jn5/portfolio',
+            href: 'https://github.com/x7ddf74479jn5/',
             label: 'GitHub',
             position: 'right',
           },
@@ -102,7 +103,11 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/h-yoshikawa44',
+                href: 'https://github.com/x7ddf74479jn5',
+              },
+              {
+                label: 'GitHub Gist',
+                href: 'https://gist.github.com/x7ddf74479jn5',
               },
               {
                 label: 'Twitter',

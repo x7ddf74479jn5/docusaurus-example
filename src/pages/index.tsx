@@ -94,6 +94,7 @@ const Home = () => {
                       <PersonalLinkItem url={siteConfig.customFields.url['homepage']} text="ホームページ" />
                       <PersonalLinkItem url={siteConfig.customFields.url['wantedly']} text="Wantedly" />
                       <PersonalLinkItem url={siteConfig.customFields.url['github']} text="GitHub" />
+                      <PersonalLinkItem url={siteConfig.customFields.url['gist']} text="Gist" />
                       <PersonalLinkItem url={siteConfig.customFields.url['twitter']} text="Twitter" />
                     </ul>
                   </div>
