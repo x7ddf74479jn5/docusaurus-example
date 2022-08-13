@@ -1,6 +1,8 @@
 [build]
   publish = "build"
   command = "yarn build"
+  ignore = "node scripts/ignore-build.js"
+
 
 [build.environment]
   NODE_ENV = "production"
