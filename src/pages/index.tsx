@@ -74,9 +74,9 @@ const Home = () => {
                   </div>
                   <div className="card__body">
                     <p>
-                      Frontend engineer。
+                      Frontend engineer | Cook。
                       <br />
-                      フリーランスのフロントエンドエンジニアとして働いています。
+                      喫茶店の調理職に従事する傍らフリーランスのフロントエンドエンジニアとして働いています。
                     </p>
                     <p>
                       実務経験として、フロントエンドのフリーランス案件の経験はありますが、
@@ -94,6 +94,7 @@ const Home = () => {
                       <PersonalLinkItem url={siteConfig.customFields.url['homepage']} text="ホームページ" />
                       <PersonalLinkItem url={siteConfig.customFields.url['wantedly']} text="Wantedly" />
                       <PersonalLinkItem url={siteConfig.customFields.url['github']} text="GitHub" />
+                      <PersonalLinkItem url={siteConfig.customFields.url['gist']} text="Gist" />
                       <PersonalLinkItem url={siteConfig.customFields.url['twitter']} text="Twitter" />
                     </ul>
                   </div>
