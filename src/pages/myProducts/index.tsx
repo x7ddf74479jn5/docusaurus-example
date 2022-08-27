@@ -55,7 +55,7 @@ const Product = ({ productName, description, imageUrl, url, githubUrl }: Product
 
 const MyProducts = () => {
   return (
-    <Layout title="MyProducts" description="Pandasharkの個人開発">
+    <Layout title="MyProducts" description="サメパンの個人開発">
       <header className="hero hero--primary hero-banner">
         <div className="container">
           <h1 className="hero__title">My Products</h1>
@@ -64,7 +64,7 @@ const MyProducts = () => {
       </header>
       <main>
         <section className="container padding--md">
-          <h2 className="text--center">Web サイト</h2>
+          <h2 className="text--center">Webサイト</h2>
           <section>
             <h3 className="text--center decoration-line">運営</h3>
             {webSite.siteMyProducts && webSite.siteMyProducts.length && (

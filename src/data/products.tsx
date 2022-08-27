@@ -12,7 +12,7 @@ const siteMyProducts = [
     productName: 'Food Blog',
     description: (
       <span style={{ wordBreak: 'keep-all', overflowWrap: 'break-word' }}>
-        Next.jsと<wbr />microCMSで<wbr />作った<wbr />レシピブログの<wbr />サンプル。<wbr />Core Web Vitals を<wbr />意識した<wbr /> SEO、<wbr />構造化データ定義、
+        Next.jsと<wbr />microCMSで<wbr />作った<wbr />レシピブログの<wbr />サンプル。<wbr />Core Web Vitalsを<wbr />意識した<wbr />SEO、<wbr />構造化データ定義、
         <wbr />PWA、<wbr />RSSなど<wbr />メディアサイトと<wbr />して<wbr />十分な<wbr />機能を<wbr />実装している。
       </span>
     ),

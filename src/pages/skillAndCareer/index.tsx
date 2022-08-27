@@ -78,7 +78,7 @@ function SkillAndCareer() {
   const context = useDocusaurusContext();
   const { siteConfig = {} } = context;
   return (
-    <Layout title="Skill &amp; Career" description="Pandasharkのスキル &amp; 経歴">
+    <Layout title="Skill &amp; Career" description="サメパンのスキル &amp; 経歴">
       <header className="hero hero--primary hero-banner">
         <div className="container">
           <h1 className="hero__title">Skill &amp; Career</h1>
