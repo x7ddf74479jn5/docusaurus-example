@@ -25,7 +25,7 @@ const Home = () => {
   const context = useDocusaurusContext();
   const { siteConfig } = context;
   return (
-    <Layout title="Home" description="Pandasharkのポートフォリオサイト">
+    <Layout title="Home" description="サメパンのポートフォリオサイト">
       <header className="hero hero--primary hero-banner">
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
@@ -49,7 +49,7 @@ const Home = () => {
             <h3 className="text--center decoration-line">当サイトについて</h3>
             <div>
               <p>
-                Frontend Engineer である Pandashark のポートフォリオサイトです。
+                Frontend Engineerであるサメパンのポートフォリオサイトです。
                 <br />
                 経験スキルや実務経歴、個人開発の履歴、各種技術活動に関するアカウントのリンクなどを集約しています。
               </p>
@@ -67,7 +67,7 @@ const Home = () => {
                         src={useBaseUrl('img/pandashark_logo.svg')}
                       />
                       <div className="avatar__intro">
-                        <h3 className="avatar__name">Pandashark</h3>
+                        <h3 className="avatar__name">サメパン</h3>
                         <small className="avatar__subtitle">( x7ddf74479jn5 )</small>
                       </div>
                     </div>
@@ -76,16 +76,16 @@ const Home = () => {
                     <p>
                       Frontend engineer | Cook。
                       <br />
-                      喫茶店の調理職に従事する傍らフリーランスのフロントエンドエンジニアとして働いています。
+                      喫茶店で料理を作る人兼フリーランスのフロントエンドエンジニアとして働いています。
                     </p>
                     <p>
                       実務経験として、フロントエンドのフリーランス案件の経験はありますが、
                       <br />
                       いまいちスキルの中途半端感があるのでフロントエンド領域のスキルを伸ばそうと日々勉強しています。
                       <br />
-                      最近、メインで使用しているものは TypeScript React、時に Next.js です。
+                      最近、メインで使用しているものはTypeScript、React、時にNext.jsです。
                       <br />
-                      また、基礎の地盤固めとして Zenn や Qiita のウェブ開発系の記事を読み漁っています。
+                      また、基礎の地盤固めとしてZennやQiitaのウェブ開発系の記事を読み漁っています。
                     </p>
                   </div>
                   <div className="card__footer">

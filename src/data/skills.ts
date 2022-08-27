@@ -11,7 +11,7 @@ export const environments = [
     title: 'Git',
     imgUrl: 'img/logo-icons/git-icon.svg',
     description:
-      '普段の案件業務から、個人開発にわたり使用。差分は VSCode の GUI で確認し、コマンドは CLI で操作することが多い。',
+      '普段の案件業務から、個人開発にわたり使用。差分はVS CodeのGUIで確認し、コマンドはCLIで操作することが多い。',
   },
   {
     title: 'Docker',
@@ -61,13 +61,13 @@ const langAndFrameworks = [
     title: 'CSS',
     imgUrl: 'img/logo-icons/css-3.svg',
     description:
-      'Tailwind CSS や Chakra が好み。',
+      'Tailwind CSSやChakraが好み。',
   },
   {
     title: 'JavaScript',
     imgUrl: 'img/logo-icons/javascript.svg',
     description:
-      '実務使用経験はあるが、基本的にフロントのみ。あとは Google Apps Script の経験あり。使用歴は3年。',
+      '実務使用経験はあるが、基本的にフロントのみ。あとはGoogle Apps Scriptの経験あり。使用歴は3年。',
   },
   {
     title: 'TypeScript',
@@ -85,7 +85,7 @@ const langAndFrameworks = [
     title: 'Docusaurus',
     imgUrl: 'img/logo-icons/docusaurus.svg',
     description:
-      '当サイトで使用。v1 は少々使いづらさを感じたので、v2を使用。',
+      '当サイトで使用。v2を使用。',
   },
   {
     title: 'Next.js',
@@ -97,7 +97,7 @@ const langAndFrameworks = [
     title: 'Node.js',
     imgUrl: 'img/logo-icons/nodejs.svg',
     description:
-      'フロントエンドの開発環境としては概ね理解している。バックエンドの実装経験は Next.js のサーバーサイドの処理や Cloud Functionsなど。',
+      'フロントエンドの開発環境としては概ね理解している。バックエンドの実装経験はNext.jsのサーバーサイドの処理やCloud Functionsなど。',
   },
   {
     title: 'React Native / Expo',
@@ -114,7 +114,7 @@ const langAndFrameworks = [
   {
     title: 'TailWind CSS',
     imgUrl: 'img/logo-icons/tailwindcss-icon.svg',
-    description: '最近の推しCSS フレームワーク',
+    description: '最近の推しCSSフレームワーク',
   },
 ];
 
@@ -134,7 +134,7 @@ const cloudAndDatabase = [
     title: 'GCP',
     imgUrl: 'img/logo-icons/google-cloud.svg',
     description:
-      'Google Analytics Data API, Google Maps API, Google Sheets API 等の利用。学習用で Cloud Build, Cloud Run で Next.js アプリをデプロイした経験がある。',
+      'Google Analytics Data API, Google Maps API, Google Sheets API等の利用。学習用でCloud Build, Cloud RunでNext.jsアプリをデプロイした経験がある。',
   },
 ];
 

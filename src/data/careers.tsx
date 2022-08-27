@@ -10,7 +10,7 @@ const careersAtFreelance = [
     cloudService: 'Firebase',
     other: 'Storybook / Jest',
     description: (
-      <span style={{ wordBreak: 'keep-all', overflowWrap: 'break-word' }}>直近1年は<wbr />フロントエンドエンジニアと<wbr />して React 案件に<wbr />特化。主に<wbr />既存プロジェクトの<wbr />ヘルプ要員と<wbr />して<wbr />従事。<wbr />新規ウェブサイト開発・機能改修・JSから<wbr />TSへ<wbr />書き換え・テストなど。</span>
+      <span style={{ wordBreak: 'keep-all', overflowWrap: 'break-word' }}>直近1年は<wbr />フロントエンドエンジニアと<wbr />してReact案件に<wbr />特化。主に<wbr />既存プロジェクトの<wbr />ヘルプ要員と<wbr />して<wbr />従事。<wbr />新規ウェブサイト開発・機能改修・JSから<wbr />TSへ<wbr />書き換え・テストなど。</span>
     )
   },
   {
@@ -22,7 +22,7 @@ const careersAtFreelance = [
     cloudService: '',
     other: '',
     description: (
-      <span style={{ wordBreak: 'keep-all', overflowWrap: 'break-word' }}>独学の<wbr />末、<wbr />WordPress 開発者と<wbr />して<wbr />スタート。<wbr />案件は<wbr />クラウドソーシングサイトから<wbr />受注している。<wbr />LP制作や<wbr />ホームページ制作での<wbr />実装を<wbr />担当。</span>
+      <span style={{ wordBreak: 'keep-all', overflowWrap: 'break-word' }}>独学の<wbr />末、<wbr />WordPress開発者と<wbr />して<wbr />スタート。<wbr />案件は<wbr />クラウドソーシングサイトから<wbr />受注している。<wbr />LP制作や<wbr />ホームページ制作での<wbr />実装を<wbr />担当。</span>
     )
       ,
   },
@@ -66,7 +66,7 @@ const personalDevelopment = [
     cloudService: '',
     other: 'Storybook / MDX',
     description: (
-      <span style={{ wordBreak: 'keep-all', overflowWrap: 'break-word' }}>Next.jsと<wbr />microCMSで<wbr />作った<wbr />レシピブログの<wbr />サンプル。<wbr />要件と<wbr />して<wbr />非エンジニアの<wbr />方が<wbr />CMSから<wbr />入稿と<wbr />サイトの<wbr />基本設定の<wbr />変更が<wbr />できる<wbr />ことを<wbr />想定。<wbr />Markdownだけでなく<wbr />MDXにも<wbr />対応している<wbr />ため<wbr />拡張性が<wbr />ある。<wbr />Core Web Vitals を<wbr />意識した<wbr /> SEO、<wbr />構造化データ定義、<wbr />PWA、<wbr />RSSなど<wbr />メディアサイトと<wbr />して<wbr />十分な<wbr />機能を<wbr />実装している。</span>
+      <span style={{ wordBreak: 'keep-all', overflowWrap: 'break-word' }}>Next.jsと<wbr />microCMSで<wbr />作った<wbr />レシピブログの<wbr />サンプル。<wbr />要件と<wbr />して<wbr />非エンジニアの<wbr />方が<wbr />CMSから<wbr />入稿と<wbr />サイトの<wbr />基本設定の<wbr />変更が<wbr />できる<wbr />ことを<wbr />想定。<wbr />Markdownだけでなく<wbr />MDXにも<wbr />対応している<wbr />ため<wbr />拡張性が<wbr />ある。<wbr />Core Web Vitalsを<wbr />意識した<wbr /> SEO、<wbr />構造化データ定義、<wbr />PWA、<wbr />RSSなど<wbr />メディアサイトと<wbr />して<wbr />十分な<wbr />機能を<wbr />実装している。</span>
     )
      ,
   },
@@ -79,7 +79,7 @@ const personalDevelopment = [
     cloudService: 'Firebase[Hosting]',
     other: 'Twitter API / Rakuten API',
     description: (
-      <span style={{ wordBreak: 'keep-all', overflowWrap: 'break-word' }}>自分の<wbr />お気に<wbr />入りの<wbr />アイテムを<wbr />8つ<wbr />選んで<wbr /> Twitter に<wbr />投稿できる。<wbr /> Twitter・アプリケーション・商品サイト（楽天・Amazon）間の<wbr />スムーズな<wbr />導線を<wbr />構築。ご<wbr />利用には<wbr /> Twitter アカウントが<wbr />必要。<wbr />※ いろいろ<wbr />古くなってしまっている<wbr />ため<wbr />改修予定。</span>
+      <span style={{ wordBreak: 'keep-all', overflowWrap: 'break-word' }}>自分の<wbr />お気に<wbr />入りの<wbr />アイテムを<wbr />8つ<wbr />選んで<wbr />Twitterに<wbr />投稿できる。<wbr />Twitter・アプリケーション・商品サイト（楽天・Amazon）間の<wbr />スムーズな<wbr />導線を<wbr />構築。ご<wbr />利用には<wbr />Twitterアカウントが<wbr />必要。</span>
     )
      ,
   },

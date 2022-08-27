@@ -7,7 +7,7 @@
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Pandashark's Portfolio",
-  tagline: 'Pandasharkのポートフォリオ',
+  tagline: 'サメパンのポートフォリオ',
   url: 'https://pandashark-portfolio.netlify.app',
   baseUrl: '/',
   trailingSlash: false,
@@ -56,7 +56,7 @@ const config = {
       navbar: {
         title: "Pandashark's Portfolio",
         logo: {
-          alt: 'Pandasharkのロゴ',
+          alt: 'サメパンのロゴ',
           src: '/img/pandashark_logo.svg',
         },
         items: [
