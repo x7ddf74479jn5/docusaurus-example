@@ -19,7 +19,7 @@ const config = {
   customFields: {
     url: {
       homepage: 'https://three-homepage.vercel.app',
-      wantedly: 'https://www.wantedly.com/id/tomohiro_ueno_l',
+      wantedly: 'https://www.wantedly.com/id/x7ddf74479jn5_tu',
       github: 'https://github.com/x7ddf74479jn5',
       gist: 'https://gist.github.com/x7ddf74479jn5',
       twitter: 'https://twitter.com/pandashark6',
@@ -99,7 +99,7 @@ const config = {
               },
               {
                 label: 'Wantedly',
-                href: 'https://www.wantedly.com/id/tomohiro_ueno_l',
+                href: 'https://www.wantedly.com/id/x7ddf74479jn5_tu',
               },
               {
                 label: 'GitHub',
