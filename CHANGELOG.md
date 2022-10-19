@@ -2,6 +2,10 @@
 
 Pandashark's Portfolioの大まかな機能変化記録
 
+## 2022-10-219
+
+- Pandashark Usesを追加
+  
 ## 2022-08-28
 
 - Pandashark -> サメパン
