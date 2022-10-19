@@ -2,6 +2,13 @@ import React from 'react';
 
 const siteMyProducts = [
   {
+    productName: 'Pandashark Uses',
+    description: (<span style={{ wordBreak: 'keep-all', overflowWrap: 'break-word' }}>使っている機材や<wbr />ツールを<wbr />紹介している。<wbr />Astroと<wbr />Tailwind CSSで<wbr />作成。</span>),
+    imageUrl: 'img/my-products/pandashark-uses.webp',
+    url: 'https://pandashark-uses.vercel.app/',
+    githubUrl: 'https://github.com/x7ddf74479jn5/pandashark-uses/',
+  },
+  {
     productName: 'Homepage',
     description: (<span style={{ wordBreak: 'keep-all', overflowWrap: 'break-word' }}>情報発信場所を<wbr />エンジニアリング以外の<wbr />用途で<wbr />切り分けたかった<wbr />ため<wbr />制作。</span>),
     imageUrl: 'img/my-products/three-homepage.webp',
