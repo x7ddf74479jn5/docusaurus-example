@@ -67,19 +67,19 @@ const langAndFrameworks = [
     title: 'JavaScript',
     imgUrl: 'img/logo-icons/javascript.svg',
     description:
-      '実務使用経験はあるが、基本的にフロントのみ。あとはGoogle Apps Scriptの経験あり。使用歴は3年。',
+      '実務使用経験はあるが、基本的にフロントのみ。あとはGoogle Apps Scriptの経験あり。使用歴は4年。',
   },
   {
     title: 'TypeScript',
     imgUrl: 'img/logo-icons/typescript-icon.svg',
     description:
-      '現代のJavaScriptを理解し、型安全なコードを記述できる。使用歴は1年。',
+      '現代のJavaScriptを理解し、型安全なコードを記述できる。使用歴は2年。',
   },
   {
     title: 'React',
     imgUrl: 'img/logo-icons/react.svg',
     description:
-      '現在メインとする開発スキル。案件ごとのコーディング規約やフロントエンドの作法を考慮しながら開発できる。使用歴は1年。',
+      '現在メインとする開発スキル。案件ごとのコーディング規約やフロントエンドの作法を考慮しながら開発できる。使用歴は2年。',
   },
   {
     title: 'Docusaurus',
