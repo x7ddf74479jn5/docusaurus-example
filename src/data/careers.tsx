@@ -4,13 +4,13 @@ const careersAtFreelance = [
   {
     period: '2020/09 ~ Now',
     title: 'モダンフロントエンドの世界へ',
-    langAndFw: 'TypeScript / React / Next.js',
-    db: '',
-    environment: 'Git',
-    cloudService: 'Firebase',
-    other: 'Storybook / Jest',
+    langAndFw: 'TypeScript / React / Next.js / Node.js / Svelte / Astro / React Native',
+    db: 'Firebase / Supabase / PlanetScale',
+    environment: 'GitHub / Notion / Slack / webpack / Vite / Expo',
+    cloudService: 'GCP / Cloudflare / Vercel / Netlify',
+    other: 'Storybook / Jest / Vitest / Playwright / Prisma',
     description: (
-      <span style={{ wordBreak: 'keep-all', overflowWrap: 'break-word' }}>直近1年は<wbr />フロントエンドエンジニアと<wbr />してReact案件に<wbr />特化。主に<wbr />既存プロジェクトの<wbr />ヘルプ要員と<wbr />して<wbr />従事。<wbr />新規ウェブサイト開発・機能改修・JSから<wbr />TSへ<wbr />書き換え・テストなど。</span>
+      <span style={{ wordBreak: 'keep-all', overflowWrap: 'break-word' }}>直近2年は<wbr />React案件の<wbr />業務委託に<wbr />特化。<wbr />担当領域は、<wbr />フロントエンドの<wbr />設計・<wbr />実装・<wbr />テスト。<wbr />フロントエンドの<wbr />ツールチェインの<wbr />整備<wbr />（環境構築、<wbr />テスト環境整備、<wbr />CI/CD）<wbr />にも関わる。</span>
     )
   },
   {
@@ -60,11 +60,11 @@ const personalDevelopment = [
   {
     period: '2021',
     title: 'Food Blog',
-    langAndFw: 'TypeScript / React / Next.js/ Tailwind CSS',
+    langAndFw: 'TypeScript / React / Next.js / Tailwind CSS',
     db: 'microCMS',
-    environment: 'Git / GitHub Actions',
+    environment: 'GitHub',
     cloudService: '',
-    other: 'Storybook / MDX',
+    other: 'Storybook / MDX / Sentry / Jest / Playwright',
     description: (
       <span style={{ wordBreak: 'keep-all', overflowWrap: 'break-word' }}>Next.jsと<wbr />microCMSで<wbr />作った<wbr />レシピブログの<wbr />サンプル。<wbr />要件と<wbr />して<wbr />非エンジニアの<wbr />方が<wbr />CMSから<wbr />入稿と<wbr />サイトの<wbr />基本設定の<wbr />変更が<wbr />できる<wbr />ことを<wbr />想定。<wbr />Markdownだけでなく<wbr />MDXにも<wbr />対応している<wbr />ため<wbr />拡張性が<wbr />ある。<wbr />Core Web Vitalsを<wbr />意識した<wbr /> SEO、<wbr />構造化データ定義、<wbr />PWA、<wbr />RSSなど<wbr />メディアサイトと<wbr />して<wbr />十分な<wbr />機能を<wbr />実装している。</span>
     )
@@ -75,9 +75,9 @@ const personalDevelopment = [
     title: 'My Favorite Gear',
     langAndFw: 'TypeScript / React / MUI',
     db: 'Firestore',
-    environment: 'Git / GitHub Actions',
+    environment: 'GitHub / Vite',
     cloudService: 'Firebase[Hosting]',
-    other: 'Twitter API / Rakuten API',
+    other: 'Twitter API / Rakuten API / Vitest',
     description: (
       <span style={{ wordBreak: 'keep-all', overflowWrap: 'break-word' }}>自分の<wbr />お気に<wbr />入りの<wbr />アイテムを<wbr />8つ<wbr />選んで<wbr />Twitterに<wbr />投稿できる。<wbr />Twitter・アプリケーション・商品サイト（楽天・Amazon）間の<wbr />スムーズな<wbr />導線を<wbr />構築。ご<wbr />利用には<wbr />Twitterアカウントが<wbr />必要。</span>
     )
