@@ -173,7 +173,7 @@ function SkillAndCareer() {
             )}
           </section>
           <section>
-            <h3 className="text--center decoration-line">調理職 【2012/10 ~ 】</h3>
+            <h3 className="text--center decoration-line">調理職 【2012/10 ~ 2021/07】</h3>
             {careersAtCook && careersAtCook.length && (
               <div className="padding-vert--md">
                 {careersAtCook.map((props, idx) => (

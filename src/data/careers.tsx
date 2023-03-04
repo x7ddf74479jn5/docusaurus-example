@@ -22,7 +22,7 @@ const careersAtFreelance = [
     cloudService: '',
     other: '',
     description: (
-      <span style={{ wordBreak: 'keep-all', overflowWrap: 'break-word' }}>独学の<wbr />末、<wbr />WordPress開発者と<wbr />して<wbr />スタート。<wbr />案件は<wbr />クラウドソーシングサイトから<wbr />受注している。<wbr />LP制作や<wbr />ホームページ制作での<wbr />実装を<wbr />担当。</span>
+      <span style={{ wordBreak: 'keep-all', overflowWrap: 'break-word' }}>独学の<wbr />末、<wbr />WordPress開発者と<wbr />して<wbr />スタート。<wbr />LP制作や<wbr />ホームページ制作での<wbr />実装を<wbr />担当。</span>
     )
       ,
   },
@@ -30,7 +30,7 @@ const careersAtFreelance = [
 
 const careersAtCook = [
   {
-    period: '2017/04 ~ Now',
+    period: '2017/04 ~ 2021/07',
     title: '地元に戻り、喫茶店の調理職へ',
     langAndFw: '',
     db: '',
@@ -42,7 +42,7 @@ const careersAtCook = [
       ),
   },
   {
-    period: '2012/10 ~ 2017/04',
+    period: '2012/10 ~ 2017/03',
     title: 'レストラン事業会社に就職',
     langAndFw: '',
     db: '',
