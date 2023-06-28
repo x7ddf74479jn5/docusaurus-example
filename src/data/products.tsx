@@ -65,29 +65,17 @@ const otherProducts = [
 
 const devTools = [
   {
-    productName: 'next-starter',
+    productName: 'PSUI',
     description: (
       <>
-        Next.jsのテンプレートリポジトリ。
+        コンポーネントライブラリ。
         <br />
-        Next.js / TypeScript / Storybook / Jest
+        React / Radix UI / Tailwind CSS / Storybook
       </>
     ),
-    imageUrl: 'img/my-products/no_image.webp',
+    imageUrl: 'img/my-products/psui_logo.webp',
     url: '',
-    githubUrl: 'https://github.com/x7ddf74479jn5/next-starter',
-  },
-  {
-    productName: 'asset-tools',
-    description:(
-      <>
-        アセット関連の自動変換スクリプト集。
-        <br/>
-        Squoosh / FFmpeg / SVGR / BudouX
-      </>),
-    imageUrl: 'img/my-products/no_image.webp',
-    url: '',
-    githubUrl: 'https://github.com/x7ddf74479jn5/asset-tools',
+    githubUrl: 'https://github.com/x7ddf74479jn5/psui',
   },
   {
     productName: 'google-form-notification',
